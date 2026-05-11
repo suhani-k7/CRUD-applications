@@ -2,7 +2,6 @@ import { useNavigate, useParams } from "react-router-dom";
 import blogsServices from "../services/blogs";
 import { useEffect, useState } from "react";
 
-
 const BlogDetails = () => {
   const { id } = useParams();
   const [blog,setBlog] = useState([])

@@ -7,7 +7,7 @@ const TaskBox = ({ tasks, user, fetchData }) => {
   const [newTaskDescription, setNewTaskDescription] = useState("");
   const [newTaskDueDate, setNewTaskDueDate] = useState("");
   const [newTaskPriority, setNewTaskPriority] = useState("Medium");
-  const [confirmation, setConfirmation] = useState(false); // ✅
+  const [confirmation, setConfirmation] = useState(false);
 
   const addTask = async () => {
     if (newTaskText.trim() === "") return;
@@ -27,15 +27,13 @@ const TaskBox = ({ tasks, user, fetchData }) => {
 
     fetchData()
 
-    // Reset input fields
     setNewTaskText("");
     setNewTaskDescription("");
     setNewTaskDueDate("");
     setNewTaskPriority("Medium");
 
-    // ✅ Show confirmation
     setConfirmation(true);
-    setTimeout(() => setConfirmation(false), 2000); // auto-hide after 2 seconds
+    setTimeout(() => setConfirmation(false), 2000);
   };
 
   return (
