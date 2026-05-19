@@ -21,5 +21,5 @@ A responsive task management application with full CRUD functionality and user a
 - Deployment: Render
 
 ### 🔗 Live Links (if available):
-- Blog Website: [https://blog-app-abg7.onrender.com]
+- Blog Website: [https://blog-website-backend-3gpk.onrender.com/]
 - Task Manager: [https://tasksbackend-jgg9.onrender.com]
