@@ -7,7 +7,7 @@ import AddTask from './pages/AddTask';
 import Header from './components/Header';
 import './App.css';
 import taskService from './services/tasks'
-import LoginSignup from "./components/loginSignup";
+import LoginSignup from "./components/LoginSignup";
 import { Navigate } from "react-router-dom";
 
 function App() {

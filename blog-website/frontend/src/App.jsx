@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Create from "./components/Create";
 import BlogDetails from "./components/BlogDetails";
 import NotFound from "./components/NotFound";
-import LoginSignup from "./components/loginSignup";
+import LoginSignup from "./components/LoginSignup";
 import blogService from "./services/blogs"
 
 function App() {
